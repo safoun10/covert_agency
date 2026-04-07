@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jadoo Travel Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Volkhov:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="#" aria-label="Jadoo home">Jadoo<span class="brand__dot">.</span></a>
+
+        <nav class="nav" aria-label="Primary navigation">
+          <ul class="nav__list">
+            <li><a class="nav__link" href="#destinations">Desitnations</a></li>
+            <li><a class="nav__link" href="#">Hotels</a></li>
+            <li><a class="nav__link" href="#">Flights</a></li>
+            <li><a class="nav__link" href="#">Bookings</a></li>
+          </ul>
+        </nav>
+
+        <div class="auth-actions">
+          <a class="button button--text" href="#">Login</a>
+          <a class="button button--outline" href="#">Sign up</a>
+          <a class="language-select" href="#" aria-label="Language">EN</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section section--screen">
+        <div class="container hero__inner">
+          <div class="hero__content">
+            <p class="hero__eyebrow">Best destinations around the world</p>
+            <h1 class="hero__title">Travel, enjoy and live a new and full life</h1>
+            <p class="hero__description">
+              Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen
+              it engrossed listening. Park gate sell they west hard for the.
+            </p>
+            <div class="hero__actions">
+              <a class="button button--primary" href="#">Find out more</a>
+              <a class="play-button" href="#">
+                <span class="play-button__icon" aria-hidden="true">▶</span>
+                <span>Play Demo</span>
+              </a>
+            </div>
+          </div>
+          <div class="hero__media">
+            <div class="image-placeholder image-placeholder--hero">Hero Traveler Photo</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section section--screen">
+        <div class="container">
+          <div class="section-heading section-heading--center">
+            <p class="section-heading__eyebrow">Category</p>
+            <h2 class="section-heading__title">We Offer Best Services</h2>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card">
+              <div class="service-card__icon">🛰</div>
+              <h3 class="service-card__title">Calculated Weather</h3>
+              <p class="service-card__text">Built Wicket longer admire do barton vanity itself do in it.</p>
+            </article>
+            <article class="service-card service-card--active">
+              <div class="service-card__icon">✈</div>
+              <h3 class="service-card__title">Best Flights</h3>
+              <p class="service-card__text">Engrossed listening. Park gate sell they west hard for the.</p>
+            </article>
+            <article class="service-card">
+              <div class="service-card__icon">🎙</div>
+              <h3 class="service-card__title">Local Events</h3>
+              <p class="service-card__text">Barton vanity itself do in it. Preferd to men it engrossed listening.</p>
+            </article>
+            <article class="service-card">
+              <div class="service-card__icon">⚙</div>
+              <h3 class="service-card__title">Customization</h3>
+              <p class="service-card__text">We deliver outsourced aviation services for military customers.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="destinations" class="section section--screen">
+        <div class="container">
+          <div class="section-heading section-heading--center">
+            <p class="section-heading__eyebrow">Top Selling</p>
+            <h2 class="section-heading__title">Top Destinations</h2>
+          </div>
+
+          <div class="destination-grid">
+            <article class="destination-card">
+              <div class="image-placeholder image-placeholder--destination">Rome Photo</div>
+              <div class="destination-card__body">
+                <div class="destination-card__row">
+                  <h3>Rome, Italy</h3>
+                  <p>$5,42k</p>
+                </div>
+                <p class="trip-time">✈ 10 Days Trip</p>
+              </div>
+            </article>
+            <article class="destination-card">
+              <div class="image-placeholder image-placeholder--destination">London Photo</div>
+              <div class="destination-card__body">
+                <div class="destination-card__row">
+                  <h3>London, UK</h3>
+                  <p>$4.2k</p>
+                </div>
+                <p class="trip-time">✈ 12 Days Trip</p>
+              </div>
+            </article>
+            <article class="destination-card">
+              <div class="image-placeholder image-placeholder--destination">Europe Photo</div>
+              <div class="destination-card__body">
+                <div class="destination-card__row">
+                  <h3>Full Europe</h3>
+                  <p>$15k</p>
+                </div>
+                <p class="trip-time">✈ 28 Days Trip</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="booking" class="section section--screen">
+        <div class="container booking">
+          <div class="booking__content">
+            <p class="section-heading__eyebrow">Easy and Fast</p>
+            <h2 class="section-heading__title">Book Your Next Trip In 3 Easy Steps</h2>
+            <ul class="step-list">
+              <li class="step-item">
+                <span class="step-item__icon step-item__icon--yellow">□</span>
+                <div>
+                  <h3>Choose Destination</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</p>
+                </div>
+              </li>
+              <li class="step-item">
+                <span class="step-item__icon step-item__icon--orange">✈</span>
+                <div>
+                  <h3>Make Payment</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</p>
+                </div>
+              </li>
+              <li class="step-item">
+                <span class="step-item__icon step-item__icon--blue">🚗</span>
+                <div>
+                  <h3>Reach Airport on Selected Date</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="booking__card-wrap">
+            <article class="trip-card">
+              <div class="image-placeholder image-placeholder--trip">Trip To Greece Photo</div>
+              <h3>Trip To Greece</h3>
+              <p>14-29 June | by Robbin joseph</p>
+              <div class="trip-card__chips">
+                <span>LEAF</span>
+                <span>MAP</span>
+                <span>SEND</span>
+              </div>
+              <p class="trip-card__people">24 people going</p>
+            </article>
+
+            <aside class="ongoing-card">
+              <p class="ongoing-card__label">Ongoing</p>
+              <h4>Trip to rome</h4>
+              <p class="ongoing-card__progress">40% completed</p>
+              <div class="ongoing-card__bar"><span></span></div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section section--screen">
+        <div class="container testimonials">
+          <div class="testimonials__intro">
+            <p class="section-heading__eyebrow">Testimonials</p>
+            <h2 class="section-heading__title">What People Say About Us.</h2>
+            <div class="dots">
+              <span class="dot dot--active"></span><span class="dot"></span><span class="dot"></span>
+            </div>
+          </div>
+          <article class="testimonial-card">
+            <div class="testimonial-card__avatar">🙂</div>
+            <p>
+              “On the Windows talking painted pasture yet its express parties use. Sure last upon he
+              same as knew next. Of believed or diverted no.”
+            </p>
+            <h3>Mike taylor</h3>
+            <p class="testimonial-card__meta">Lahore, Pakistan</p>
+            <div class="testimonial-card__sub">Chris Thomas · CEO of Red Button</div>
+          </article>
+        </div>
+      </section>
+
+      <section id="newsletter" class="section section--screen">
+        <div class="container combo-screen">
+          <div class="company-logos">
+            <div class="logo-box">Axon</div>
+            <div class="logo-box">Jetstar</div>
+            <div class="logo-box logo-box--active">Expedia</div>
+            <div class="logo-box">Qantas</div>
+            <div class="logo-box">Alitalia</div>
+          </div>
+
+          <div class="newsletter">
+            <h2>Subscribe to get information, latest news and other interesting offers about Jadoo</h2>
+            <form class="newsletter__form" action="#" method="post">
+              <label class="visually-hidden" for="email">Your email</label>
+              <input class="newsletter__input" id="email" type="email" placeholder="Your email" />
+              <button class="button button--coral" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+        <section>
+          <h2 class="footer-logo">Jadoo.</h2>
+          <p>Book your trip in minute, get full Control for much longer.</p>
+        </section>
+        <section>
+          <h3>Company</h3>
+          <a href="#">About</a><a href="#">Careers</a><a href="#">Mobile</a>
+        </section>
+        <section>
+          <h3>Contact</h3>
+          <a href="#">Help/FAQ</a><a href="#">Press</a><a href="#">Affilates</a>
+        </section>
+        <section>
+          <h3>More</h3>
+          <a href="#">Airlinefees</a><a href="#">Airline</a><a href="#">Low fare tips</a>
+        </section>
+        <section>
+          <div class="socials"><span>f</span><span>◎</span><span>𝕏</span></div>
+          <p>Discover our app</p>
+          <div class="store-row"><span>Google Play</span><span>Apple Store</span></div>
+        </section>
+      </div>
+      <p class="footer-copy">All rights reserved@jadoo.co</p>
+    </footer>
+  </body>
+</html>
