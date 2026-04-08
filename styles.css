@@ -144,8 +144,6 @@ input:focus-visible {
 
 .clean-dropdown {
 	appearance: none;
-	-webkit-appearance: none;
-	-moz-appearance: none;
 	background: transparent;
 	border: none;
 	outline: none;
@@ -608,12 +606,10 @@ input:focus-visible {
 .logo-box {
 	height: 4.2rem;
 	border-radius: 1rem;
-	background: var(--surface);
+	background: transparent;
 	border: none;
 	display: grid;
 	place-items: center;
-	color: #646a87;
-	font-weight: 600;
 	transition:
 		transform 220ms ease,
 		box-shadow 220ms ease;
@@ -636,7 +632,7 @@ input:focus-visible {
 .newsletter {
 	background: #efecff;
 	border-radius: 1.9rem;
-	border-top-left-radius: 10rem;
+	border-top-left-radius: 9rem;
 	padding: 3.2rem 2.2rem;
 	margin: 5rem 0;
 	box-shadow: 0 14px 36px rgba(122, 108, 191, 0.1);
@@ -840,9 +836,4 @@ input:focus-visible {
 	.newsletter {
 		padding: 4rem 3rem;
 	}
-}
-
-.login:hover {
-	background-color: #e8e8e8;
-	transition: 0.5s;
 }
