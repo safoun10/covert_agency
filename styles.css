@@ -628,8 +628,7 @@ input:focus-visible {
 	display: block;
 }
 
-.logo-box:hover,
-.logo-box--active {
+.logo-box:hover{
 	transform: translateY(-5px);
 	box-shadow: var(--shadow-soft);
 }
